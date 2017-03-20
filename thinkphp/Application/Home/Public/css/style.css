@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* CSS Document */
+/*初始化*/
+*{margin:0 auto;}
+body{font:14px"Microsoft YaHei","Arial Narrow",HELVETICA;background:#FFF;-webkit-text-size-adjust:100%;}
+a{color:#2d374b;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:none;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+ul,li{ list-style:none; padding:0; margin:0;}
+img{ border:none;}
+
+.lz_kj{
+	width:100%;box-shadow:0px 4px 8px #CCC;}
+.lz_kjtou{
+	width:100%;
+	height:36px;
+	background:#f7f7f7;}
+.lz_kjtou_div{
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+	height:36px;
+}
+.lz_kjtou_div_l{
+	font-family:"SimSun";
+	font-size:12px;
+	line-height:36px;
+	float:left;
+	color:#666;
+	}
+.lz_kjtou_div_r{
+	font-family:"SimSun";
+	font-size:12px;
+	line-height:36px;
+	float: right;}	
+.lz_kjtou_div_r a{ color:#666666;}
+.lz_kjtou_div_r a:hover{ color:#f00;}
+.lz_kjtou_div2{
+	width:100%;
+	height:76px;
+	box-shadow:0px 4px 8px #CCC;}
+.lz_kjtou2{
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+	line-height:76px;}	
+.lz_kjtou_div2_logo{
+	font-family:"Microsoft YaHei";
+	font-size:26px;
+	float:left;
+	font-weight:bold;}	
+.lz_kjtou_div2_logo a{ outline:none; border:none; color:#1e1c1d;}
+.lz_kjtou_div2_logo a:hover{ color:#1e1c1d;}
+.lz_kjtou_div2_r{
+	width:600px;
+	height:76px;
+	line-height:76px;
+	font-family:"SimSun";
+	font-size:14px;
+	color:#666666;
+	float:right;}	
+ul.ul_nav li{width:102px;
+	height:76px;
+	line-height:76px;
+	float:left;font-weight:bold;
+	cursor:pointer;}
+.lz_kjtou_div2_rfl{
+	width:102px;
+	height:76px;
+	line-height:76px;
+	float:left;
+	font-weight:bold;
+	cursor:pointer;
+	
+	}
+.lz_kjtou_div2_rfl span{ font-weight:normal; color:#e0e0e0;}
+.lz_kjfind{
+	width:140px;
+	height:28px;
+	margin-top:21px;
+	border-radius:5px 0px 0px 5px;
+	border:1px solid #CCC;
+	float:right;}	
+.lz_kjfind_btninp{
+	width:40px;
+	height:32px;
+	margin-top:21px;
+	border-radius:0px 5px 5px 0px;
+	border:1px solid #025db0;
+	background:#025db0;
+	cursor:pointer;
+	float: right;
+	background:url(../images/find.png);
+	}					
+.lz_daohang{
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+	height:30px;
+	background:#025db0;}	
+.lz_daohang a{display:inline-block; line-height:30px; font-weight:normal; color:#fff; font-family:"SimSun"; font-size:12px; margin-right:12px;}
+em.em_arrow{ background:url(../images/arrow.png) no-repeat; width:4px; height:6px; float:left; margin-top:13px; margin-right:5px;}
+em.em_arrow2{ background:url(../images/left_arrow.png) no-repeat; width:4px; height:6px; float:left; margin-top:13px;}
+
+.img_00{ position:absolute; z-index:100; top:-10px; left:420px;}
+.lz_kjdt{
+	width:996px;
+	height:243px;
+	border:1px solid #CCC;
+	padding:1px;
+	margin-top:5px;
+	}
+.lz_kjdt2{
+	width:996px;
+	height:243px;
+	border:1px solid #CCC;
+	padding:1px;
+	margin-top:5px;
+	}
+
+
+.lz_zhuyao{
+	width:1000px;
+	min-height:500px;
+	margin-top:28px;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+.lz_zhuyao_l{
+    background:url(../images/left0.png) repeat-x;
+	width:220px;
+	min-height:275px;
+	float:left;}
+.lz_zhuyao_r{
+	width:770px;
+	/*min-height:480px;*/
+	float:right;
+	background:url(../images/rights_bg.png) repeat-x;
+	}		
+.lz_kjwei{
+	font-family:"SimSun";
+	font-size:12px;
+	text-align:center;
+	color:#666666;
+	margin-bottom:20px;
+	}	
+	.lz_kjwei p{ line-height:22px;}
+.lz_zhuyao_lt{
+	width:220px;
+	height:46px;
+	font-family:"SimSun";
+	font-size:15px;
+	line-height:46px;
+	text-align:center;
+	background:url(images/zbj.png);
+	border-bottom:1px solid  #CCC;
+	font-weight:bold;}
+.lz_ppz{
+	width:185px;
+	height:30px;
+	line-height:30px;
+	color:#FFF;
+	font-family:"SimSun";
+	font-size:12px;
+	background:#025db0;
+	}	
+.lz_ppz1{
+	width:185px;
+	height:30px;
+	line-height:30px;
+	color:#666;
+	font-family:"SimSun";
+	font-size:12px;
+	text-align:left;
+	border-bottom:1px dotted #CCCCCC;
+	}	
+span.title{color:#4b7697; font-size:14px; margin-left:7px;}
+.lz_ppz1 a{ color:#666666; display:block;}
+.lz_ppz1 span{ margin-left:10px;}
+.lz_ppz1 span.changed{ margin-left:15px; color:#fff;}
+
+.lz_ppzsp{
+	margin-top:15px;}	
+.lz_zhuyao_rdiv{
+	width:770px;
+	/*height:42px;*/
+	background:url(images/rbei.png);}		
+.lz_zhuyao_rdiv720{
+	width:720px;
+	font-family:"SimSun";
+	font-size:14px;
+	height:32px;
+	line-height:32px;
+	/*line-height:42px;*/
+	padding-top:10px;
+	}
+.lz_zhuyao_rdiv720l{
+	float:left;}
+.lz_zhuyao_rdiv720r{
+	font-family:"SimSun";
+	font-size:12px;
+	color: #999;
+	float:right;
+	}	
+.lz_zhuyao_rdiv720r a.no_change{ color:#a5a5a5;}
+.lz_zhuyao_rdiv720r a.visi{ color:#666666;}
+.lz_zhuyao_rdiv720sp{
+    
+	width:720px;
+	font-family:"SimSun";
+	font-size:12px;
+	color:#444444;
+	/*min-height:500px;*/
+	margin-top:5px;
+	border-top:1px  dotted #CCCCCC;}	
+.nr_l{
+	width:460px;
+	float:left;
+	margin-top:18px;
+}
+
+.nr_r{
+	float:right;margin-top:20px;
+	width:245px;
+	height:345px;
+	}	
+.nr_l p{
+	line-height:25px;
+	text-indent:25px;
+	}	
+.mt15{ margin-top:15px;}
+
+
+.index_img{border:1px solid #e8e8e8;margin-top:18px;padding:2px;}
+
+.index_img0{border:1px solid #e8e8e8; padding:2px;}
+.index_imgw{margin-right:6px; margin-top:-2px;}
+
+/*沪中-会计公司-项目介绍*/
+
+.project_intro{}
+.nr_2{
+	width:375px;
+	float:left;
+	margin-top:18px;
+}
+.nr_r2{
+	float:right;margin-top:22px;
+	width:335px;
+	
+	}	
+p.p_neirong{
+	line-height:25px;
+	text-indent:25px;
+	font-size:12px;
+	color:#444444;
+	}	
+/***************************************************************沪中-公司资质模版************************************************/
+.clear{ clear:both;}
+.company_zz{}
+.company_zz ul.ul_company_zz{ margin-top:18px;}
+.company_zz ul.ul_company_zz li{width:227px; border:1px #e8e8e8 solid; margin-right:11px; float:left; margin-bottom:12px;}
+.company_zz ul.ul_company_zz li img{ width:227px; height:157px;}
+.company_zz ul.ul_company_zz li .zz_titlle{ height:31px; background:url(../images/zz_li_bg.jpg) repeat-x; text-align:center; line-height:31px;}
+.pages{text-align:center; margin-top:18px;}
+a.page0{ border:1px #dfdfdf solid; padding:5px 10px; text-align:center; display:inline-block; color:#9b9b9b;}
+a.page0:hover{ background:#005bac; color:#fff;}
+a.page1{ background:#005bac; color:#fff;}
+.lz_zhuyao2{
+	width:1000px;
+	min-height:600px;
+	margin-top:28px;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+
+
+/***************************************************沪中-会计公司-服务产品*********************************************************************/
+ul.ul_product_ser{ margin-top:15px; float:left; margin-bottom:20px;}
+ul.ul_product_ser li{ background:url(../images/li_img.jpg) no-repeat left center; padding-left:15px; margin-bottom:10px;}
+.w370{ width:307px;}
+.lz_daohang2{
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+	height:25px;
+	line-height:25px;
+	padding-top:4px;
+	}	
+.lz_daohang2 a{display:inline-block; line-height:25px; font-weight:normal; color:#595d6a; font-family:"SimSun"; font-size:12px; margin-right:12px;}
+.lz_daohang2 a:hover{ color:#cd0200;}
+em.em_arrow4{ background:url(../images/left_arrow.png) no-repeat; width:4px; height:6px; float:left; margin-top:10px; margin-right:5px;}
+
+
+
+
+/*************************************典型案例*****************************************************************************************/
+.spacil_exmple{}
+ul.ul_exmple{ margin-top:15px; min-height:320px; float:left; margin-bottom:10px;}
+ul.ul_exmple li{ background:url(../images/li_dian.jpg) no-repeat left 12px; padding-left:15px; margin-bottom:5px;height:25px;}
+ul.ul_exmple li a{ border-bottom:1px #ccc dotted; width:705px; display:block; position:relative;height:15px; }
+.yanzi{position:absolute; left:0; top:8px; background:#fff; color:#666666;}
+.yanzi2{color:#666666; font-size:12px; position:absolute; right:0; top:7px; background:#fff;}
+/********************************************联系我们***********************************************************************************************/
+.contact{margin-top:16px;}
+p.p_00{ color:#555555; font-size:12px;padding-bottom:12px;}
+p.p_01{ color:#222121; font-size:14px; font-weight:700; padding-bottom:12px;}
+span.span_b_00{ color:#015ca2; font-weight:700;font-size:16px;}
+.contact_img0{border:1px solid #e8e8e8; padding:2px; margin-bottom:55px; margin-top:5px;}
+
+
+
+.img_02{ position:absolute; z-index:100; top:-10px; left:620px;}
+
+
+/**************************造价公司**************************************/
+
+.zaojia{ padding-top:22px; margin-bottom:30px;}
+p.p_z01{ color:#015ca2; font-size:12px; font-weight:700;}
+.img_01{ position:absolute; z-index:100; top:-10px; left:520px;}
+p.p_02{ color:#444444; font-size:12px; line-height:24px; padding-bottom:50px;}
+
+
+
+/****************************************************************************咨询公司*************************************************/
+.img_03{ position:absolute; z-index:100; top:-10px; left:720px;}
+
+.mt30{ margin-top:30px;}
+
+
+
+/*******************************************组织架构**********************************/
+.ml95{ margin-left:95px;}
+.mt20{ margin-top:20px;}
+
+
+
+/**************************swf***********************************/
+.w_swf{width:1084px; margin:0 auto;}

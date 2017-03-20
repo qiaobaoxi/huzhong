@@ -1,0 +1,390 @@
+[ 2017-03-17T10:41:27+08:00 ] ::1 /thinkphp/huijifuwuchanpin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Huijifuwuchanpin
+
+[ 2017-03-17T10:41:59+08:00 ] ::1 /thinkphp/index/huijifuwuchanpin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-17T10:42:19+08:00 ] ::1 /thinkphp/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-17T10:42:40+08:00 ] ::1 /thinkphp/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-17T10:46:14+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:46:14+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:46:17+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:46:17+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:46:19+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:46:19+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:46:43+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:46:43+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:46:50+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:46:50+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:46:57+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:46:57+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:03+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:03+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:09+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:09+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:14+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:14+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:23+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:23+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:29+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:29+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:34+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:39+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:39+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:44+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:47:44+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:54:51+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:54:51+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:54:59+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T10:54:59+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:05:35+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:05:35+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:05:38+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:05:39+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:05:39+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:28:17+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:28:17+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:53:30+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:53:30+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:53:34+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:53:34+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:53:50+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:53:50+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:54:39+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:54:39+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008448s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:54:48+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:54:48+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:54:57+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T11:54:57+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T13:09:23+08:00 ] ::1 /thinkphp/Application/Home/Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T13:09:23+08:00 ] ::1 /thinkphp/Application/Home/Public/js/libs/modernizr.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T13:09:23+08:00 ] ::1 /thinkphp/Application/Home/Public/css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T13:09:28+08:00 ] ::1 /thinkphp/Application/Home/Public/css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T13:09:28+08:00 ] ::1 /thinkphp/Application/Home/Public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T13:40:50+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T13:40:50+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T14:08:19+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T14:08:19+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T16:26:11+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/zbj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Application
+
+[ 2017-03-17T16:26:11+08:00 ] ::1 /thinkphp/Application/Home/Public/css/images/rbei.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Application
+
