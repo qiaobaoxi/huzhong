@@ -8,17 +8,20 @@
 <body>
 <div class="lz_kj">
   <include file="Public/header" />
- <div class="lz_daohang2" style="position:relative;"><include file="Public/zixunLink" /> </div>
+ <div class="lz_daohang" style="position:relative;">
+        <div class="img_03"><img src="__PUBLIC__/images/arrow1.png" /></div>
+        <include file="Public/zixunLink" />
+  </div>
   <div class="lz_kjdt"><img src="__PUBLIC__/images/datu.png" width="1000" height="243" /></div>
   <div class="lz_zhuyao" style="min-height:350px;">
     <div class="lz_zhuyao_l">
       <div class="lz_zhuyao_lt">咨询公司<span class="title">consultant firm</span></div>
-      <div class="lz_ppz1 mt15"><a href="#"><em class="em_arrow2"></em><span>公司介绍</span></a></div>
-      <div class="lz_ppz1"><a href="#"><em class="em_arrow2"></em><span>组织机构</span></a></div>
-      <div class="lz_ppz1"><a href="#"><em class="em_arrow2"></em><span>公司资质</span></a></div>
-      <div class="lz_ppz1 lz_ppz"><a href="#"><span class="changed">服务产品</span> </a></div>
-      <div class="lz_ppz1"><a href="#"><em class="em_arrow2"></em><span>典型案例</span></a></div>
-      <div class="lz_ppz1"><a href="#"><em class="em_arrow2"></em><span>联系我们</span></a></div>
+      <div class="lz_ppz1 mt15"><a href="__CONTROLLER__/zixungongsijieshao"><em class="em_arrow2"></em><span>公司介绍</span></a></div>
+      <div class="lz_ppz1"><a href="__CONTROLLER__/zixunzuzhijiegou"><em class="em_arrow2"></em><span>组织机构</span></a></div>
+      <div class="lz_ppz1"><a href="__CONTROLLER__/zixungongsizizhi"><em class="em_arrow2"></em><span>公司资质</span></a></div>
+      <div class="lz_ppz1 lz_ppz"><a href="__CONTROLLER__/zixunfuwuchanpin"><span class="changed">服务产品</span> </a></div>
+      <div class="lz_ppz1"><a href="__CONTROLLER__/zixundianxinganli"><em class="em_arrow2"></em><span>典型案例</span></a></div>
+      <div class="lz_ppz1"><a href="__CONTROLLER__/zixunlianxiwomen"><em class="em_arrow2"></em><span>联系我们</span></a></div>
     </div>
     <div class="lz_zhuyao_r">
       <div class="lz_zhuyao_rdiv">
@@ -29,23 +32,14 @@
         <!--内容-->
         <div class="lz_zhuyao_rdiv720sp">
           <ul class="ul_product_ser w370">
-         
-            <li><a href="#">投资策划 </a></li>
-            <li><a href="#"> 税务筹划</a> </li>
-            <li><a href="#"> 财务系统设置 </a> </li>
-            <li><a href="#"> 项目可行性研究 </a></li>
-            <li><a href="#"> 预算筹划 </a> </li>
-            <li><a href="#"> 常年顾问 </a> </li>
-            <li><a href="#"> 代理记账 </a></li>
-            <li><a href="#">代理纳税 </a></li>
+          <volist name="list" id="vo"  >
+									{$vo.article1}
+							</volist>
           </ul>
           <ul class="ul_product_ser">
-            <li><a href="#"> 所得税清算 </a></li>
-            <li><a href="#"> 代理联合年检</a></li>
-            <li><a href="#"> 相关验资、审计、评估、造价、财务监理等的业务联络工作 </a></li>
-            <li><a href="#"> 各类公司(含外商代表处)设立、变更、延期、注销</a></li>
-            <li><a href="#"> 代理网上电子纳税申报</a></li>
-            <li><a href="#"> 防伪税控IC卡报税 </a> </li>
+             <volist name="list" id="vo"  >
+									{$vo.article2}
+							</volist>
           </ul>
           <div class="clear"></div>
          
@@ -57,9 +51,16 @@
 </div>
 <!--尾-->
 <div class="lz_kjwei">
-  <p>COPYRIGHT©2015 上海沪中专业集团 ALL RIGHTS RESERVED <span style="color:#015ca2;">苏ICP备15030313</span></p>
+  <p>COPYRIGHT©2015 上海沪中专业集团 ALL RIGHTS RESERVED <a href="http://www.miitbeian.gov.cn/" style="color:#015ca2;">沪ICP备06023446号-1</a></p>
   <p>地址：上海市静安区陕西北路917 号 ，200040 电 话：:021-52137802 传真：021-52137800 </p>
   <p>技术支持：南京瑞虹信息科技有限公司</p>
 </div>
 </body>
+<script type="text/javascript">
+     var article=document.getElementsByClassName("ul_product_ser")
+     var content=article[0].innerHTML.replace(/^/gm,'<li><a href="">').replace(/$/gm,'</a></li>')
+     article[0].innerHTML=content
+     var content1=article[1].innerHTML.replace(/^/gm,'<li><a href="">').replace(/$/gm,'</a></li>')
+     article[1].innerHTML=content1
+</script>
 </html>

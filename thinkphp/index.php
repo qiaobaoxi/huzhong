@@ -20,7 +20,7 @@ define('APP_DEBUG',True);
 // 定义应用目录
 define('APP_PATH','./Application/');
 // 定义应用目录
-define('URL','http://localhost:80/thinkphp/');
+define('URL','http://192.168.0.227:80/thinkphp/');
 
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';

@@ -1,9 +1,9 @@
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>后台登录</title>
-    <link href="__PUBLIC__/css/admin_login.css" rel="stylesheet" type="text/css" />
+    <link href="http://192.168.0.227:80/thinkphp/Application/Admin/Public/css/admin_login.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="admin_login_wrap">
@@ -18,7 +18,7 @@
                     </li>
                     <li>
                         <label for="pwd">密码：</label>
-                        <input type="password" name="pwd" value="admin" id="pwd" size="35" class="admin_input_style" />
+                        <input type="password" name="password" value="" id="password" size="35" class="admin_input_style" />
                     </li>
                     <li>
                         <input type="submit" tabindex="3" value="提交" class="btn btn-primary" />

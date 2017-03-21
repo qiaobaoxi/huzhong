@@ -8,19 +8,20 @@
 <body>
 <div class="lz_kj">
   <include file="Public/header" />
-  <!--<div class="lz_daohang" style="position:relative;">
-        <include file="Public/kuaijiLink"/>
-  </div>-->
+  <div class="lz_daohang" style="position:relative;">
+        <div class="img_00"><img src="__PUBLIC__/images/arrow1.png" /></div>
+        <include file="Public/kuaijiLink" />
+  </div>
   <div class="lz_kjdt"><img src="__PUBLIC__/images/datu.png" width="1000" height="243" /></div>
   <div class="lz_zhuyao">
     <div class="lz_zhuyao_l">
       <div class="lz_zhuyao_lt">会计公司<span class="title">Accounting Firm</span></div>
       <div class="lz_ppz1  mt15"><a href="__CONTROLLER__/kuaijigongsijieshao"><em class="em_arrow2"></em><span>公司介绍</span></a> </div>
       <div class="lz_ppz1 lz_ppz"> <a href="__CONTROLLER__/kuaijixiangmujieshao"><span class="changed">项目介绍 </span></a></div>
-      <div class="lz_ppz1"><a href="#"><em class="em_arrow2"></em><span>政府入围</span></a></div>
-      <div class="lz_ppz1"><a href="#"><em class="em_arrow2"></em><span>公司资质</span></a></div>
+      <div class="lz_ppz1"><a href="__CONTROLLER__/kuaijizhengfuruwei"><em class="em_arrow2"></em><span>政府入围</span></a></div>
+      <div class="lz_ppz1"><a href="__CONTROLLER__/kuaijigongsizizhi"><em class="em_arrow2"></em><span>公司资质</span></a></div>
       <div class="lz_ppz1"><a href="__CONTROLLER__/kuaijifuwuchanpin"><em class="em_arrow2"></em><span>服务产品</span></a></div>
-      <div class="lz_ppz1"><a href="#"><em class="em_arrow2"></em><span>服务特色</span></a></div>
+      <div class="lz_ppz1"><a href="__CONTROLLER__/kuaijifuwutese"><em class="em_arrow2"></em><span>服务特色</span></a></div>
       <div class="lz_ppz1"><a href="__CONTROLLER__/kuaijidianxinganli"><em class="em_arrow2"></em><span>典型案例</span></a></div>
       <div class="lz_ppz1"><a href="__CONTROLLER__/kuaijilianxiwomen"><em class="em_arrow2"></em><span>关于我们</span></a></div>
     </div>
@@ -32,9 +33,10 @@
         </div>
         <!--内容-->
         <div class="lz_zhuyao_rdiv720sp">
-          <div class="nr_2">
-            <p class="p_neirong">上海沪中会计师事务所有限公司是由各类资深执业人员投资，注册资本为人民币100万元。实行董事会领导下的主任会计师负责制，下设十个部室。我们依托120多名专业人才的敬业精神和智慧，依靠完善的质量控制制度，服务于包括国内外知名企业的各行各业客户。</p>
-            <p class="p_neirong">公司主要的业务是为中外企事业单位提供设立资本金验证、变更验证、工商年检；会计报表审计、经济责任审计、工程决算审计、各种专项审计；司法鉴定；审计、会计、税务、投资咨询；代理记帐、代理纳税。服务范围遍及政府机关、事业单位、工业、商业、房地产业、建筑业、服务业等各个领域。多年来，公司坚持“诚信为本 操守为重”的所训，始终不渝地推行一流专业服务，赢得了客户的信任，在企业的发展中自身得到了发展和壮大。</p>
+          <div class="nr_2" id="article">
+              	<volist name="list" id="vo"  >
+									{$vo.article}
+								</volist>
           </div>
           <div class="nr_r2"> <img class="index_img0"src="__PUBLIC__/images/t3.png" width="332" height="209"/></div>
         </div>
@@ -45,9 +47,14 @@
 </div>
 <!--尾-->
 <div class="lz_kjwei">
-  <p>COPYRIGHT©2015 上海沪中专业集团 ALL RIGHTS RESERVED <span style="color:#015ca2;">苏ICP备15030313</span></p>
+  <p>COPYRIGHT©2015 上海沪中专业集团 ALL RIGHTS RESERVED <a href="http://www.miitbeian.gov.cn/" style="color:#015ca2;">沪ICP备06023446号-1</a></p>
   <p>地址：上海市静安区陕西北路917 号 ，200040 电 话：:021-52137802 传真：021-52137800 </p>
   <p>技术支持：南京瑞虹信息科技有限公司</p>
 </div>
 </body>
+<script type="text/javascript">
+     var article=document.getElementById("article")
+     var content=article.innerHTML.replace(/^/gm,'<p class="p_neirong">').replace(/$/gm,'</p>')
+     article.innerHTML=content
+</script>
 </html>

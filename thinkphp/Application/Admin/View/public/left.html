@@ -5,7 +5,7 @@
         <div class="sidebar-content">
             <ul class="sidebar-list">
                 <li>
-                    <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
+                    <a href="#" class="dropDown"><i class="icon-font">&#xe003;</i>会计页面</a>
                     <ul class="sub-menu">
                         <li><a href="__CONTROLLER__/index"><i class="icon-font">&#xe008;</i>会计公司介绍</a></li>
                         <li><a href="__CONTROLLER__/kuaijizhengfuruwei"><i class="icon-font">&#xe005;</i>会计政府入围</a></li>
@@ -15,19 +15,51 @@
                         <li><a href="__CONTROLLER__/kuaijifuwutese"><i class="icon-font">&#xe052;</i>会计服务特色</a></li>
                         <li><a href="__CONTROLLER__/kuaijidianxinganli"><i class="icon-font">&#xe033;</i>会计典型案例</a></li>
                         <li><a href="__CONTROLLER__/kuaijilianxiwomen"><i class="icon-font">&#xe008;</i>会计联系我们</a></li>
+                   </ul>
+                </li>
+                 <li>
+                    <a href="#" class="dropDown"><i class="icon-font">&#xe003;</i>造价页面</a>
+                    <ul class="sub-menu">
                         <li><a href="__CONTROLLER__/zaojiagongsijieshao"><i class="icon-font">&#xe005;</i>造价公司介绍</a></li>
                         <li><a href="__CONTROLLER__/zaojiagongsizizhi"><i class="icon-font">&#xe006;</i>造价公司资质</a></li>
                         <li><a href="__CONTROLLER__/zaojiafuwuchanpin"><i class="icon-font">&#xe004;</i>造价服务产品</a></li>
                         <li><a href="__CONTROLLER__/zaojiadianxinganli"><i class="icon-font">&#xe012;</i>造价典型案例</a></li>
                         <li><a href="__CONTROLLER__/zaojialianxiwomen"><i class="icon-font">&#xe052;</i>造价联系我们</a></li>
+                   </ul>
+                </li>
+                 <li>
+                    <a href="#" class="dropDown"><i class="icon-font">&#xe003;</i>税务页面</a>
+                    <ul class="sub-menu">
                         <li><a href="__CONTROLLER__/shuiwugongsijieshao"><i class="icon-font">&#xe033;</i>税务公司介绍</a></li>
+                        <li><a href="__CONTROLLER__/shuiwuxiangmujieshao"><i class="icon-font">&#xe033;</i>税务项目介绍</a></li>
+                        <!--<li><a href="__CONTROLLER__/shuiwufuwuchanpin"><i class="icon-font">&#xe033;</i>税务服务产品</a></li>-->
+                   </ul>
+                </li>
+                 <li>
+                    <a href="#" class="dropDown"><i class="icon-font">&#xe003;</i>咨询页面</a>
+                    <ul class="sub-menu">
+                    	<li><a href="__CONTROLLER__/zixungongsijieshao"><i class="icon-font">&#xe008;</i>咨询公司介绍</a></li>
                         <li><a href="__CONTROLLER__/zixunxiangmujieshao"><i class="icon-font">&#xe008;</i>咨询项目介绍</a></li>
                         <li><a href="__CONTROLLER__/zixungongsizizhi"><i class="icon-font">&#xe005;</i>咨询公司资质</a></li>
                         <li><a href="__CONTROLLER__/zixunfuwuchanpin"><i class="icon-font">&#xe006;</i>咨询服务产品</a></li>
                         <li><a href="__CONTROLLER__/zixundianxinganli"><i class="icon-font">&#xe004;</i>咨询典型案例</a></li>
                         <li><a href="__CONTROLLER__/zixunlianxiwomen"><i class="icon-font">&#xe012;</i>咨询联系我们</a></li>
-                    </ul>
+                   </ul>
                 </li>
             </ul>
         </div>
     </div>
+    <script type="text/javascript">
+    	var AdropDown=document.getElementsByClassName("dropDown");
+    	var AsubMenu=document.getElementsByClassName("sub-menu");
+    	for (var i=0;i<AdropDown.length;i++ ) {
+    		AdropDown[i].index=i;
+    		AdropDown[i].onclick=function(){
+    			for (var j=0;j<AsubMenu.length;j++) {
+    				AsubMenu[j].style.height=0;
+    			}
+    			var aLi=AsubMenu[this.index].getElementsByTagName("li");
+    			AsubMenu[this.index].style.height=aLi.length*aLi[0].offsetHeight+"px";
+    		}
+    	}
+    </script>
